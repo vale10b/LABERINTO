@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#maze {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+
+#player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+#goal {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.wall {
+    position: absolute;
+    background-color: black;
+}
